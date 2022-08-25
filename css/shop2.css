@@ -1,0 +1,147 @@
+body {
+    background: white;
+    border: none;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+h3 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 800px;
+    text-align: center;
+    font-size: 25px;
+    color: silver;
+    text-shadow: 3px -1px 1px black;
+
+}
+
+.card {
+    border: none;
+    float: right;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-bottom: 25px;
+    box-shadow: 1px 1px 10px silver;
+    border-radius: 4em;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+
+}
+
+main {
+    width: 80%;
+    box-shadow: 1px 1px 10px silver;
+}
+
+.btn_delete {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 16px;
+    border-radius: 5em;
+    background-color: tomato;
+
+}
+
+.btn_edit {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 15px;
+    border-radius: 5em;
+    background-color: orange;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    word-spacing: 3px;
+    font-family: 'Cairo', sans-serif;
+}
+
+.card-text {
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 10px;
+    font-family: 'Cairo', sans-serif;
+}
+
+::selection {
+    color: orangered;
+    background-color: beige;
+}
+
+.btn_delete:hover {
+    background-color: #ff0000;
+
+    transition: 1.9s ease;
+}
+
+.btn_edit:hover {
+    background-color: #ff6a00;
+    transition: 1.9s ease;
+}
+
+#header {
+    background-color: silver;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    width: auto;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 10px 200px;
+    padding: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+#headlink {
+    color: white;
+    text-shadow: 4px 3px 3px #de8317;
+    opacity: 100%;
+    text-decoration: none;
+    margin-left: 15%;
+}
+
+#headlink:hover {
+    opacity: 100%;
+    color: orangered;
+    transition: 1s ease;
+}
+
+::selection {
+    color: orangered;
+    background-color: beige;
+}
+
+#logout {
+    color: white;
+    text-shadow: 4px 3px 3px #de8317;
+    opacity: 100%;
+    text-decoration: none;
+    /* margin-left: 70%; */
+    margin-left: 65%;
+}
+
+#logout:hover {
+    opacity: 100%;
+    color: orangered;
+    transition: 1s ease;
+}

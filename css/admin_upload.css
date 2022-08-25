@@ -1,0 +1,123 @@
+body {
+    background:  linear-gradient(to right,#772f1a,#f2a65a );
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 400px;
+    margin: 7em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(251, 123, 3);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.un {
+width: 76%;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 40px;
+    
+}
+
+.pass {
+        width: 76%;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+background: rgba(136, 126, 126, 0.04);
+padding: 10px 20px;
+border: none;
+border-radius: 20px;
+outline: none;
+box-sizing: border-box;
+border: 2px solid rgba(0, 0, 0, 0.02);
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+margin-bottom: 27px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+
+.un:focus, .pass:focus {
+    border: 2px solid rgb(255, 185, 64)!important;
+    
+}
+
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #f53803,#f5d020);
+    border: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 30%;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    margin-top: 20px;
+    transition: 0.7s ease;
+}
+
+.submit:hover{
+    background-color:#8B4513 ;
+    transform:scale(1.1);
+}
+
+.signup {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    padding-top: 15px;
+    text-align: center;
+    color: #e7a10baf;
+
+} 
+a {
+    color:#ff6a00;
+    text-decoration: none;
+}
+   .signup a:hover {
+    color: #ff2600; 
+}  
+.user_id {
+    display: none;
+    
+}
+::selection {
+    color: orangered;
+    background-color: beige;
+}
+label {
+    color: red;
+    text-align: center;
+    cursor: pointer;
+}

@@ -1,0 +1,87 @@
+body {
+    margin: none;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+    border: 2px solid black;
+    width: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+
+.th2,
+.th3 {
+    color: white;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding: 7px;
+    background-color: silver;
+    text-shadow: 3px -1px 13px black;
+}
+
+.th1 {
+    color: white;
+    border-bottom: 2px solid black;
+    background-color: silver;
+    padding: 7px;
+    text-shadow: 3px -1px 13px black;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 40%;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: 16px;
+    border-radius: 5em;
+    background-color: tomato;
+}
+
+.td2,
+.td3 {
+    border-left: 2px solid black;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #ec410c, #f2a65a);
+    transition: 1.7s ease;
+}
+
+#back {
+    text-decoration: none;
+    font-size: 20px;
+    color: tomato;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    opacity: 50%;
+}
+
+#back:hover {
+    color: #ff2600;
+    opacity: 70%;
+}
+
+::selection {
+    color: orangered;
+    background-color: beige;
+}
+
+h3 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
